@@ -1,0 +1,5 @@
+.saldouser-container {
+    white-space: nowrap; /* Evita que el contenido salte de línea */
+    overflow: hidden; /* Oculta el contenido que se desborde */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
+}

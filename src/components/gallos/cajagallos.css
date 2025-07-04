@@ -1,0 +1,30 @@
+
+.principal {
+  background-color: black;
+  display: flex; /* Habilita Flexbox */
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+  justify-content: center; /* Centra verticalmente */
+  
+  /*height: 80vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  margin-top: 60px;
+  
+}
+
+.body-jugadas{
+    height: 35em;
+    overflow: auto;
+}
+
+
+#form-monto {
+  display: flex; /* Habilita Flexbox */
+  justify-content: flex-end; /* Alinea el contenido a la derecha */
+  align-items: center; /* Alinea verticalmente los elementos */
+  gap: 0.5em; /* Espacio entre el label y el input */
+}
+
+.div_jugadas
+{
+  height: 29.5em;
+}

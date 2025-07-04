@@ -1,0 +1,20 @@
+.col {
+    display: flex; /* Habilita Flexbox */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente con espacio entre ellos */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si no caben en una línea */
+  }
+
+  .alert{
+    padding: 0.5em;
+    flex: 1 1 calc(25% - 1em); /* Cada elemento ocupa el 25% del ancho menos el margen */
+    
+    margin: 0.2em; /* Agrega espacio entre los elementos */
+    text-align: center; /* Centra el contenido del alert */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+  }
+
+  hr{
+    padding: 0em;
+    margin: 0em;
+  }

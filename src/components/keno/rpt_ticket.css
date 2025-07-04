@@ -1,0 +1,39 @@
+@media print { 
+  p{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 0.8em;    
+}
+
+  @page { 
+    margin: 0.2cm; /* Configura los márgenes según tus necesidades */ 
+  } 
+
+  body {     
+    font-weight: bold;
+    margin:0;
+    padding:0
+  }
+
+  .font-sm{
+    font-size: 10pt; /* Opcional: ajusta el tamaño de la fuente */    
+  }
+  
+  .font-md{
+    font-size: 12pt; /* Opcional: ajusta el tamaño de la fuente */  
+  }
+
+  .font-lg{
+    font-size: 14pt; /* Opcional: ajusta el tamaño de la fuente */
+    
+  }
+
+  .font-xl{
+    font-size: 16pt; /* Opcional: ajusta el tamaño de la fuente */
+    
+  }
+
+  
+}
